@@ -5,17 +5,18 @@ const ImageCard = props =>{
 
     return (
 
-        <div/*className = "image-card key= */>
-        /*
-        <h2>Insert Title here </h2>
-        <img>inster image</img>
-        <p>insert description, possible drop down box</p>
-        
-        */
+        <div>
+               
         <p>I am a place holder</p>
+         <h2>{props.title} </h2>
+         <h3>{props.date}</h3>
+         <img src = {props.image} />
+        <h3>{props.owner}</h3>
+         <p>{props.description}</p>
 
         </div>
 
     )
 
 }
+export default ImageCard;
